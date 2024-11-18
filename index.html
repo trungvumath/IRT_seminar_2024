@@ -9,7 +9,7 @@
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
-            background: url('background.webp') no-repeat center center fixed;
+            background: url('background.jpeg') no-repeat center center fixed;
             background-size: cover;
             position: relative;
         }
@@ -89,7 +89,7 @@
     <title>IRT Seminar</title>
 </head>
 <body>
-    <h1>Seminar Schedule</h1>
+    <h1>Seminar Schedule Fall 2024</h1>
     <table>
         <thead>
             <tr>
@@ -175,6 +175,55 @@
                 </td>
             </tr>
             <!-- Add more rows as needed -->
+        </tbody>
+    </table>
+
+    <h1>Seminar Schedule Spring 2025</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Date</th>
+                <th>Event type</th>
+                <th>Speaker</th>
+                <th>Institution</th>
+                <th>Location</th>
+                <th>Title</th>
+                <th>Abstract</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>TBA</td>
+                <td>February, 20th</td>
+                <td>IRT and Department Colloquium</td>
+                <td>Leonid Petrov</td>
+                <td>University of Virginia</td>
+                <td>TBA</td>
+                <td>TBA</td>
+                <td><span class="more" onclick="toggleAbstract('abstract_Leo')">Click for abstract</span></td>
+            </tr>
+            <tr id="abstract_Leo" class="abstract">
+                <td colspan="6">
+                    TBA
+                </td>
+            </tr>
+
+            <tr>
+                <td>TBA</td>
+                <td>February, 27th</td>
+                <td>IRT Colloquium</td>
+                <td>Marianna Russkikh</td>
+                <td>University of Notre Dame</td>
+                <td>TBA</td>
+                <td>TBA</td>
+                <td><span class="more" onclick="toggleAbstract('abstract_Marianna')">Click for abstract</span></td>
+            </tr>
+            <tr id="abstract_Marianna" class="abstract">
+                <td colspan="6">
+                    TBA
+                </td>
+            </tr>
         </tbody>
     </table>
 
